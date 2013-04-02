@@ -15,7 +15,7 @@ Then, Create a textfile and name it Podfile in your XCode project directory.
 Then, edit the Podfile and mention your dependencies.
     
     $ edit Podfile
-    platform : ios
+    platform :ios
     pod 'TVCalibratedSlider',     '~> 1.0.0'
     
 Now install the dependencies in your project :
