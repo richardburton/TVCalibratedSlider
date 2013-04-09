@@ -4,6 +4,8 @@ A control used to select a value from a bunch of continuous values. This control
  
 A slider object requires the TVCalibratedSliderRange object for its range(default is 0 to 1).
 
+![TVCalibratedSlider preview](http://f.cl.ly/items/0Z1O0Z3U1k3i0y0j3g2F/TVCalibratedSlider.png)
+
 ##Installation using CocoaPods
 
 CocoaPods is distributed as a ruby gem, installing it is as easy as running the following commands in the terminal:
