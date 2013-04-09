@@ -15,7 +15,8 @@ typedef struct {
 
 typedef enum {
     TVCalibratedSliderStyleDefault ,
-    TavicsaStyle
+    TavicsaStyle,
+    GrayTavicsaStyle
 } TVCalibratedSliderStyle;
 
 typedef void (^TVSliderValueChangedBlock)(id sender);

@@ -101,6 +101,11 @@
         [self setMinimumTrackImage:@"slider_blue.png" withCapInsets:UIEdgeInsetsMake(0, 16, 0, 16) forState:UIControlStateNormal];
         [self setThumbImage:@"slider_normal" forState:UIControlStateNormal withOffsetRelativeToCenterOfTrack:CGPointMake(0, 0)];
         [self setThumbImage:@"slider_hover" forState:UIControlStateHighlighted withOffsetRelativeToCenterOfTrack:CGPointMake(0, -15)];
+    } else if (style == GrayTavicsaStyle){
+        [self setMaximumTrackImage:@"slider_gray.png" withCapInsets:UIEdgeInsetsMake(0, 16, 0, 16) forState:UIControlStateNormal];
+        [self setMinimumTrackImage:@"slider_gray.png" withCapInsets:UIEdgeInsetsMake(0, 16, 0, 16) forState:UIControlStateNormal];
+        [self setThumbImage:@"slider_normal" forState:UIControlStateNormal withOffsetRelativeToCenterOfTrack:CGPointMake(0, 0)];
+        [self setThumbImage:@"slider_hover" forState:UIControlStateHighlighted withOffsetRelativeToCenterOfTrack:CGPointMake(0, -15)];
     }
 }
 

@@ -34,7 +34,7 @@
     [scaledSlider setRange:range];
     [scaledSlider setValue:3];
     [scaledSlider setTextColorForHighlightedState:[UIColor blackColor]];
-    [scaledSlider setStyle:TavicsaStyle];
+    [scaledSlider setStyle:GrayTavicsaStyle];
     scaledSlider.tvSliderValueChangedBlock = ^(id sender){
         NSLog(@"The value is %d",[(TVCalibratedSlider *)sender value]);
     };
@@ -52,6 +52,7 @@
     range2.maximumValue = 8;
     range2.minimumValue = 2;
     [_programmaticallyCreatedSlider setRange:range2];
+    [_programmaticallyCreatedSlider setValue:5];
     [containerView addSubview:_programmaticallyCreatedSlider];
     [_programmaticallyCreatedSlider setTextColorForHighlightedState:[UIColor redColor]];
     [_programmaticallyCreatedSlider setMarkerImageOffsetFromSlider:5];
